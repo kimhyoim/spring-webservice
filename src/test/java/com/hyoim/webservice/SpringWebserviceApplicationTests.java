@@ -1,4 +1,4 @@
-package com.hyoim.springwebservice;
+package com.hyoim.webservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

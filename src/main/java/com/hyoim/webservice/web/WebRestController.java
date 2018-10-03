@@ -1,4 +1,4 @@
-package com.hyoim.springwebservice.web;
+package com.hyoim.webservice.web;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
