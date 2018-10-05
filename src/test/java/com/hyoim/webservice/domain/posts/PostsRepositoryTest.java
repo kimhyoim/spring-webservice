@@ -40,7 +40,7 @@ public class PostsRepositoryTest {
         List<Posts> postsList = postsRepository.findAll();
 
         //then
-        Posts posts = postsList.get(2);
+        Posts posts = postsList.get(0);
         assertThat(posts.getTitle(), is("테스트 게시글"));
         assertThat(posts.getContent(), is("테스트 본문"));
     }
@@ -58,7 +58,7 @@ public class PostsRepositoryTest {
         List<Posts> postsList = postsRepository.findAll();
 
         //then
-        Posts posts = postsList.get(2);
+        Posts posts = postsList.get(0);
         assertTrue(posts.getCreatedDate().isAfter(now));
         assertTrue(posts.getModifiedDate().isAfter(now));
     }
